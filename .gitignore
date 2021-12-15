@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#Jovian
+.jovianrc
+
 # C extensions
 *.so
 
