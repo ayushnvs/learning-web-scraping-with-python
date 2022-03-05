@@ -25,8 +25,8 @@ if __name__ == "__main__":
                 writer = csv.writer(f)
                 writer.writerow(data)
             print("Writing Completed.")
-            print("Waiting for 8 minutes...")
-            sleep_time = 8
+            print("Waiting for 10 minutes...")
+            sleep_time = 10
             time.sleep(sleep_time*60)
         except requests.exceptions.ConnectionError:
             print("ConnectionError: Failed to establish new connection!")
